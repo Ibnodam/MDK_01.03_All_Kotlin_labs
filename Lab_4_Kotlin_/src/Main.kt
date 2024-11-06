@@ -1,21 +1,17 @@
 fun main() {
 //    // 1
-//    print("Enter the size of the list: ")
+    // println("Enter the size of the list:")
+//        val n = readLine()?.toIntOrNull() ?: return println("Enter an integer!")
+//        val numbers = mutableListOf<Int>()
+//        var a = 1
 //
-//    val size: Int = readLine()!!.toInt()
-//    var list: MutableList<Int> = mutableListOf()
-//    for (i in 0 until size) {
-//
-//        print("Enter the $i's element: ")
-//        list.add(readLine()!!.toInt())
-//    }
-//
-//    var map: MutableMap<Int, Int> = mutableMapOf()
-//
-//    for(i in 0 until size){
-//        for(ii in 0 until size){
-//            if(i != ii && list[i] == list[ii]) map.put(list[i], list[ii])
-//    }}
+//        println("Enter $n numbers:")
+//        for (i in 1..n) {
+//            val number = readLine()!!.toInt()
+//                numbers.add(number)
+//        }
+//        val pairsCount = countPairs(numbers)
+//        println("The number of pairs: $pairsCount")
 
 
 //////////////////////////////////
@@ -74,3 +70,20 @@ fun main() {
             println("There were no word in the text.")
         }
     }
+
+
+// Функция к первому заданию
+fun countPairs(numbers: List<Int>): Int {
+    val frequencyMap = mutableMapOf<Int, Int>()
+    for (number in numbers) {
+        frequencyMap[number] = frequencyMap.getOrDefault(number, 0) + 1
+    }
+    var pairsCount = 0
+    for (count in frequencyMap.values) {
+        if (count > 1) {
+            pairsCount += count * (count - 1) / 2
+        }
+    }
+    return pairsCount
+}
+
