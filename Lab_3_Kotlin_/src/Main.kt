@@ -1,14 +1,4 @@
 fun main() {
-    // Пример экземпляра книги!
-    val book1 = Book("Программирование на Kotlin", 300, 1500.0)
-    println(book1.getInfo())
-    println("An average cost per sheet: ${book1.averageSheetPrice()}")
-
-    book1.startsWith()
-    println("After the possible price changing: ${book1.getInfo()}")
-
-    println("_____________")
-
     try{
     println("Enter the title of the book: ")
     val title = readLine() ?: "Unknown book!"
