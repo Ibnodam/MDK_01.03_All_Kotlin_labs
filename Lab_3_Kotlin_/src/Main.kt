@@ -9,6 +9,7 @@ fun main() {
 
     println("_____________")
 
+    try{
     println("Enter the title of the book: ")
     val title = readLine() ?: "Unknown book!"
     println("Enter the count of the sheets: ")
@@ -22,7 +23,10 @@ fun main() {
 
 
     book2.startsWith()
-    println("After the possible price changing: ${book2.getInfo()}")
+    println("After the possible price changing: ${book2.getInfo()}")}
+
+     catch(e: Exception){ println("Error: ${e.message}")
+        println("Please try again!")}
 
     System.gc()
 }
