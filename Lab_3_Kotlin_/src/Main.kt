@@ -18,5 +18,7 @@ fun main() {
      catch(e: Exception){ println("Error: ${e.message}")
         println("Please try again!")}
 
-    System.gc()
+     finally{
+         println("The pogram is finished!")
+         System.gc()}
 }
