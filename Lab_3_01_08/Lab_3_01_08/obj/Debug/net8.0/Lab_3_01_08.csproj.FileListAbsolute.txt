@@ -1,0 +1,14 @@
+C:\Users\odinaev-v\source\repos\Lab_3_01_08\Lab_3_01_08\bin\Debug\net8.0\Lab_3_01_08.exe
+C:\Users\odinaev-v\source\repos\Lab_3_01_08\Lab_3_01_08\bin\Debug\net8.0\Lab_3_01_08.deps.json
+C:\Users\odinaev-v\source\repos\Lab_3_01_08\Lab_3_01_08\bin\Debug\net8.0\Lab_3_01_08.runtimeconfig.json
+C:\Users\odinaev-v\source\repos\Lab_3_01_08\Lab_3_01_08\bin\Debug\net8.0\Lab_3_01_08.dll
+C:\Users\odinaev-v\source\repos\Lab_3_01_08\Lab_3_01_08\bin\Debug\net8.0\Lab_3_01_08.pdb
+C:\Users\odinaev-v\source\repos\Lab_3_01_08\Lab_3_01_08\obj\Debug\net8.0\Lab_3_01_08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\odinaev-v\source\repos\Lab_3_01_08\Lab_3_01_08\obj\Debug\net8.0\Lab_3_01_08.AssemblyInfoInputs.cache
+C:\Users\odinaev-v\source\repos\Lab_3_01_08\Lab_3_01_08\obj\Debug\net8.0\Lab_3_01_08.AssemblyInfo.cs
+C:\Users\odinaev-v\source\repos\Lab_3_01_08\Lab_3_01_08\obj\Debug\net8.0\Lab_3_01_08.csproj.CoreCompileInputs.cache
+C:\Users\odinaev-v\source\repos\Lab_3_01_08\Lab_3_01_08\obj\Debug\net8.0\Lab_3_01_08.dll
+C:\Users\odinaev-v\source\repos\Lab_3_01_08\Lab_3_01_08\obj\Debug\net8.0\refint\Lab_3_01_08.dll
+C:\Users\odinaev-v\source\repos\Lab_3_01_08\Lab_3_01_08\obj\Debug\net8.0\Lab_3_01_08.pdb
+C:\Users\odinaev-v\source\repos\Lab_3_01_08\Lab_3_01_08\obj\Debug\net8.0\Lab_3_01_08.genruntimeconfig.cache
+C:\Users\odinaev-v\source\repos\Lab_3_01_08\Lab_3_01_08\obj\Debug\net8.0\ref\Lab_3_01_08.dll
