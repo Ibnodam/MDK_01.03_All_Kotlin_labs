@@ -1,0 +1,30 @@
+CREATE DATABASE HoldingAnalytics;
+GO
+
+USE HoldingAnalytics;
+GO
+
+CREATE TABLE Indicators (
+    IndicatorCode INT PRIMARY KEY,
+    Name NVARCHAR(100) NOT NULL,
+    Importance FLOAT NOT NULL,
+    Unit NVARCHAR(50) NOT NULL
+);
+
+CREATE TABLE Enterprises (
+    EnterpriseCode INT PRIMARY KEY,
+    Name NVARCHAR(150) NOT NULL,
+    BankDetails NVARCHAR(200) NOT NULL,
+    Phone NVARCHAR(50) NOT NULL,
+    ContactPerson NVARCHAR(100) NOT NULL
+);
+
+CREATE TABLE IndicatorDynamics (
+    IndicatorCode INT NOT NULL,
+    EnterpriseCode INT NOT NULL,
+    Value FLOAT NOT NULL,
+    PeriodStart DATE NOT NULL,
+    CONSTRAINT PK_IndicatorDynamics PRIMARY KEY (IndicatorCode, EnterpriseCode, PeriodStart),
+    CONSTRAINT FK_IndicatorDynamics_Indicators FOREIGN KEY (IndicatorCode) REFERENCES Indicators (IndicatorCode),
+    CONSTRAINT FK_IndicatorDynamics_Enterprises FOREIGN KEY (EnterpriseCode) REFERENCES Enterprises (EnterpriseCode)
+);
